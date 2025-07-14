@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazprom.CarLeasing.Api", "Gazprom.CarLeasing.Api\Gazprom.CarLeasing.Api.csproj", "{4F39BD0F-18E6-47F4-8554-D152C9789E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazprom.CarLeasing.Application", "Gazprom.Leasing.Application\Gazprom.CarLeasing.Application.csproj", "{5CB3FDAD-CEF5-44CC-9EA7-FA3FF7B5BC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazprom.CarLeasing.Domain", "Gazprom.Leasing.Domain\Gazprom.CarLeasing.Domain.csproj", "{52390E49-79B6-4386-9619-90C482109BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazprom.CarLeasing.Storage", "Gazprom.Leasing.Storage\Gazprom.CarLeasing.Storage.csproj", "{18E48B9E-58B8-4109-91CD-625B12DEAC27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{35684EC9-3502-45B0-B2BC-EC8CCF34C5B4}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazprom.CarLeasing.Dto", "Gazprom.CarLeasing.Dto\Gazprom.CarLeasing.Dto.csproj", "{6DB9C084-AEBB-46AE-AB1E-97A6527B60C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazprom.CarLeasing.Common", "Gazprom.CarLeasing.Common\Gazprom.CarLeasing.Common.csproj", "{0C3F3324-6EB6-4D73-AF1F-C2B287C6CFD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F39BD0F-18E6-47F4-8554-D152C9789E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F39BD0F-18E6-47F4-8554-D152C9789E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F39BD0F-18E6-47F4-8554-D152C9789E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F39BD0F-18E6-47F4-8554-D152C9789E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB3FDAD-CEF5-44CC-9EA7-FA3FF7B5BC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB3FDAD-CEF5-44CC-9EA7-FA3FF7B5BC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB3FDAD-CEF5-44CC-9EA7-FA3FF7B5BC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB3FDAD-CEF5-44CC-9EA7-FA3FF7B5BC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52390E49-79B6-4386-9619-90C482109BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52390E49-79B6-4386-9619-90C482109BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52390E49-79B6-4386-9619-90C482109BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52390E49-79B6-4386-9619-90C482109BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E48B9E-58B8-4109-91CD-625B12DEAC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E48B9E-58B8-4109-91CD-625B12DEAC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E48B9E-58B8-4109-91CD-625B12DEAC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E48B9E-58B8-4109-91CD-625B12DEAC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB9C084-AEBB-46AE-AB1E-97A6527B60C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB9C084-AEBB-46AE-AB1E-97A6527B60C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB9C084-AEBB-46AE-AB1E-97A6527B60C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB9C084-AEBB-46AE-AB1E-97A6527B60C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3F3324-6EB6-4D73-AF1F-C2B287C6CFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3F3324-6EB6-4D73-AF1F-C2B287C6CFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3F3324-6EB6-4D73-AF1F-C2B287C6CFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3F3324-6EB6-4D73-AF1F-C2B287C6CFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
